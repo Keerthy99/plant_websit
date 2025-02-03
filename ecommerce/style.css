@@ -1,0 +1,83 @@
+.title{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+
+.container{
+    text-align: center;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+.welcome_image{
+   max-width: 100%;
+   /* height: fit-content; */
+   padding-bottom: 30px;
+   height: auto;
+   display: block;
+   margin: 0;
+   padding: 0;
+   
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 50px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    color: greenyellow;
+
+
+    
+}
+.nav-left, .nav-right {
+    display: flex;
+    gap: 90px;
+    color: green;
+}
+
+
+.nav-center {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration:wavy;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    color: green;
+}
+
+a:hover {
+    color: #6a0dad; 
+}
+
+input{
+   width: 70%;
+   height: auto;
+   border-radius: 8px;
+   padding: 10px  20Px;
+}
+
+.product-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.product-list button{
+    width: 160px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: navy;
+}
